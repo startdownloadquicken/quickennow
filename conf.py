@@ -4,12 +4,12 @@ release = '1.0'
 
 extensions = []
 
-templates_path = []
+# ENABLE templates override
+templates_path = ['_templates']
 exclude_patterns = []
 
-# 🔥 CUSTOM WEBSITE THEME
-html_theme = 'mytheme'
-html_theme_path = ['_theme']
+# Use normal RTD theme
+html_theme = 'sphinx_rtd_theme'
 
-# Static files
 html_static_path = ['_static']
+html_title = "Quicken Download Desktop | Install, Activate & Update"
